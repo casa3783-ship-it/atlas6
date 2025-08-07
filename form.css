@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* form styling */
+
+
+#wrapper {
+width: 60%;
+margin-left:4%;
+}
+
+#formcol1 {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+}
+
+#formcol1 li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
+label {
+    margin-right: .3em;
+    width: 6.3em; 
+    display: inline-block; 
+    text-align: right;
+    color: black;
+}
+
+#formcol1 .reqfield {
+    border: 2px solid black;
+    background-color: rgba(255, 255, 125, 0.559);
+}
+
+.req-asterisk {
+    color: red;
+    font-weight: bold;
+    margin-left: 0.2em; 
+}
+
+#multchoice {
+    border: none;
+    padding: 0;
+    margin-top: 1.5em;
+}
+
+#multchoice p span {
+    margin-right: 2.5em; 
+}
+#multchoice p span label {
+    margin-left: 0.5em; 
+    margin-right: 0; 
+    width: auto; 
+    text-align: left; 
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, label[for]:focus, label[for]:active {
+    color: #FFF !important;
+    background-color: #BB3D2F !important;
+}
+
+/* end of form css */
